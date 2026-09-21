@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "优学院好舒服啊",
+  "version": "4.0.0",
+  "description": "自动静音播放视频、自动做练习题、自动翻页、修改播放速率 - 适用于优学院平台",
+  "icons": {
+    "16": "icons/icon.png",
+    "48": "icons/icon.png",
+    "128": "icons/icon.png"
+  },
+  "permissions": [
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://api.ulearning.cn/*",
+    "<all_urls>"
+  ],
+  "action": {
+    "default_title": "优学院好舒服啊 - 控制台",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "icons/icon.png"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}
