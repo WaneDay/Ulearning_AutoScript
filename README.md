@@ -18,7 +18,7 @@
 2. 地址栏输入 `edge://extensions` 回车，进入扩展管理页。
 3. 打开左下角 **开发人员模式** 开关。
 4. 点击左上角 **加载解压缩的扩展**，选择刚才解压出来的**那个文件夹**（里面有 `manifest.json` 的那一层）。
-![Uploading 1edb890c350f32e472f6dc8658eb9b87.png…]()
+<img width="1048" height="605" alt="6cc0c0d2fc38bb7d8895a81a6085a4d0" src="https://github.com/user-attachments/assets/a0a2b611-546f-43aa-8b42-7d49df2ba6d5" />
 5. 安装成功后，插件出现在扩展列表中，名称显示为 **优学院好舒服啊**。
 <img width="1035" height="228" alt="3f79cf7f6978137fae19c604cf22c4bc" src="https://github.com/user-attachments/assets/5b6da6f4-9d18-4573-b459-a2c897dd2ccf" />
 
